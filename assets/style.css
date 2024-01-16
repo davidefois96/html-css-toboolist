@@ -1,0 +1,249 @@
+/* reset margin, padding e impostazione border box*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*stili del body*/
+
+body{
+
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #F6f8f9;
+}
+
+
+
+
+
+/*stili header*/
+
+header{
+ height: 100px;
+ background-color: white;
+
+
+}
+
+
+header img{
+  padding-left: 20px;
+  vertical-align: text-bottom;
+
+}
+
+
+header h1{
+  display: inline-block;
+  font-size: 3em;
+  line-height: 100px;
+  padding-left: 10px;
+}
+
+/*stili prima section*/
+
+
+
+
+section.firstcontainer {
+
+  height: 60px;
+  width: 1000px;
+  margin: 50px auto 3px auto;
+  background-color: white;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+
+}
+
+section.secondcontainer{
+
+  height: 600px;
+  width: 1000px;
+  margin: 0 auto 50px auto;
+  background-color: white;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+
+}
+
+section button.button{
+  border: solid 2px ;
+  border-radius: 5px;
+  border-color: #d4d8dc;
+  text-align: center;
+  vertical-align: middle;
+  height: 30px;
+  margin-top: 15px;
+  
+}
+
+button.firstbutton {
+
+  background-color: #45abea;
+  color: white;
+  margin-left: 5%;
+  width: 80px;
+}
+
+button.secondbutton {
+  color:  #d4d8dc;
+  background-color: white;
+  width: 100px; 
+}
+
+/*stili seconda section*/
+
+
+li{
+  font-weight: 600;
+  
+
+
+
+}
+
+.titlelist{
+  margin-left: 4.5%;
+  padding-top: 3%;
+}
+
+
+.list {
+  list-style: none;
+  margin-left: 3%;
+  
+  padding-top: 1%;
+
+}
+
+
+#triangle {
+  display: inline-block;
+  vertical-align: top;
+  height:10px;
+  font-size: 2em;
+  
+  
+
+}
+
+#check
+{
+  border: solid #59bba3 1px ;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  color:#59bba3 ;
+  display: inline-block;
+  text-align: center;
+  padding-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 10px ;
+}
+
+#cross
+{
+  border: solid #ec645d 1px ;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  color: #ec645d ;
+  display: inline-block;
+  text-align: center;
+  padding-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+#editorial {
+  display: inline-block;
+  background-color: #45abea;
+  color: white ;
+  margin-left: 1%;
+  padding-top: 7px;
+  width: 70px;
+  height: 30px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 0.8em;
+  font-weight: 600;
+
+} 
+
+#q1goals {
+  display: inline-block;
+  background-color:#9c72e4;
+  color: white ;
+  margin-left: 1%;
+  padding-top: 7px;
+  width: 73px;
+  height: 30px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 0.8em;
+  font-weight: 600;
+
+}
+
+#recruiting {
+  display: inline-block;
+  background-color: #64c0a9;
+  color: white ;
+  margin-left: 1%;
+  padding-top: 7px;
+  width: 76px;
+  height: 30px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 0.8em;
+  font-weight: 600;
+
+}
+
+#mobile {
+  display: inline-block;
+  background-color: #f29e33;
+  color: white ;
+  margin-left: 2%;
+  padding-top: 7px;
+  width: 64px;
+  height: 30px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 0.8em;
+  font-weight: 600;
+
+}
+
+#website {
+  display: inline-block;
+  background-color: #d863a1;
+  color: white ;
+  margin-left: 1%;
+  padding-top: 7px;
+  width: 67px;
+  height: 30px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 0.8em;
+  font-weight: 600;
+
+}
+
+#sales {
+  display: inline-block;
+  background-color: #b0c926;
+  color: white ;
+  margin-left: 1%;
+  padding-top: 7px;
+  width: 61px;
+  height: 30px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 0.8em;
+  font-weight: 600;
+}
+
