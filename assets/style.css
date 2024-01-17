@@ -10,7 +10,7 @@
 
 body{
 
-  font-family: 'Ubuntu', sans-serif;
+  font-family: sans-serif;
   background-color: #F6f8f9;
 }
 
@@ -98,11 +98,8 @@ button.secondbutton {
 
 
 li{
+
   font-weight: 600;
-  
-
-
-
 }
 
 .titlelist{
@@ -114,8 +111,7 @@ li{
 .list {
   list-style: none;
   margin-left: 3%;
-  
-  padding-top: 1%;
+  padding-top: 1.2%;
 
 }
 
@@ -124,7 +120,7 @@ li{
   display: inline-block;
   vertical-align: top;
   height:10px;
-  font-size: 2em;
+  font-size: 1.6em;
   
   
 
@@ -139,9 +135,10 @@ li{
   color:#59bba3 ;
   display: inline-block;
   text-align: center;
-  padding-bottom: 20px;
   margin-left: 20px;
   margin-right: 10px ;
+  font-size: 0.8em;
+  
 }
 
 #cross
@@ -153,9 +150,10 @@ li{
   color: #ec645d ;
   display: inline-block;
   text-align: center;
-  padding-bottom: 20px;
   margin-left: 20px;
   margin-right: 10px;
+  font-size: 0.8em;
+  
 }
 
 #editorial {
@@ -170,6 +168,7 @@ li{
   text-align: center;
   font-size: 0.8em;
   font-weight: 600;
+  
 
 } 
 
